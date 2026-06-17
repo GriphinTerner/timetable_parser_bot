@@ -1,4 +1,4 @@
-from db_for_udacha_v3 import *
+from db import *
 
 
 bot = Bot("BOT TOKEN HERE")

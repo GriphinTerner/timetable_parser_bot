@@ -45,20 +45,6 @@ README.md
 - Telegram bot token from BotFather
 - Internet connection
 
-## Environment variables
-
-Create a `.env` file in the root folder of the project.
-
-The `.env` file should contain:
-
-```env
-BOT_TOKEN=your_telegram_bot_token_here
-```
-
-The real Telegram bot token must be stored only in the local `.env` file.
-
-Do not publish real tokens, API keys or private IDs on GitHub.
-
 ## How to run
 
 Clone the repository:
@@ -98,18 +84,12 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+Add your bot token in bot.py
 
 ```bash
-touch .env
+bot = Bot("ENTER YOUR TOKEN")
 ```
-
-Add your Telegram bot token to `.env`:
-
-```env
-BOT_TOKEN=your_telegram_bot_token_here
-```
-
+ 
 Run the bot:
 
 ```bash
@@ -140,12 +120,6 @@ Install them with:
 pip install -r requirements.txt
 ```
 
-### `.env.example`
-
-Example environment file.
-
-It should not contain real private tokens.
-
 ## Troubleshooting
 
 ### `ModuleNotFoundError`
@@ -160,7 +134,7 @@ pip install -r requirements.txt
 
 ### Bot does not start
 
-Check that the `.env` file exists and contains a valid Telegram bot token:
+Check that you entered a valid Telegram bot token:
 
 ```env
 BOT_TOKEN=your_telegram_bot_token_here
@@ -168,7 +142,7 @@ BOT_TOKEN=your_telegram_bot_token_here
 
 ### Telegram token error
 
-Create a new bot token through BotFather and replace the value in `.env`.
+Create a new bot token through BotFather and replace the value in bot.py.
 
 ### Bot starts, but does not respond
 

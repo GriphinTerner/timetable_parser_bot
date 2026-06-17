@@ -177,24 +177,6 @@ __pycache__/
 *.log
 ```
 
-## Recommended GitHub repository description
-
-Asynchronous Telegram bot for transport schedules, train timetable parsing and weather information.
-
-## Recommended GitHub topics
-
-```text
-python
-aiogram
-telegram-bot
-asyncio
-parser
-beautifulsoup
-transport-schedule
-timetable
-weather
-```
-
 ## License
 
 This project is intended for educational and portfolio purposes.

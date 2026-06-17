@@ -2,7 +2,7 @@ from db_for_udacha_v3 import *
 from aiogram.exceptions import TelegramBadRequest
 
 
-bot = Bot("6674671354:AAGBhiqeMTRN9ZX6Gq-MFmpZJzOjU15E_Ng")
+bot = Bot("BOT TOKEN HERE")
 dp = Dispatcher()
 router = Router()
 

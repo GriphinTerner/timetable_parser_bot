@@ -1,5 +1,4 @@
 from db_for_udacha_v3 import *
-from aiogram.exceptions import TelegramBadRequest
 
 
 bot = Bot("BOT TOKEN HERE")
